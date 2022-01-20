@@ -3,6 +3,7 @@ pipeline{
  stages{
        stage("prep"){
           echo "Hello World"
+          git "https://github.com/devopsdsvc/gsvccore/edit/main/jenkinfile.hgit"
        }
        stage('build'){
           echo "Building applications"
