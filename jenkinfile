@@ -3,7 +3,11 @@ pipeline{
  stages{
        stage("prep"){
           echo "Hello World"
+<<<<<<< Updated upstream
           git "https://github.com/devopsdsvc/gsvccore/edit/main/jenkinfile.hgit"
+=======
+	  sh “mvn clean deploy” 
+>>>>>>> Stashed changes
        }
        stage('build'){
           echo "Building applications"
