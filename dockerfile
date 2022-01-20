@@ -1,1 +1,2 @@
 FROM alphine
+ADD . /app
