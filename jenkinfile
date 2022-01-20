@@ -1,6 +1,5 @@
 pipeline{
-
-agent {label “maven-agent”}
+ agent {label “maven-agent”}
  stages{
        stage("prep"){
           echo "Hello World"
